@@ -52,6 +52,10 @@ hr{
   background-color: #065c6f;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index: 1;
 }
 .topnav a {
   float: left;
@@ -70,7 +74,34 @@ hr{
   background-color: #000000;
   color: white;
 }
+.bottomnav{
+  background-color: #065c6f;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  z-index: 1;
+}
+.bottomnav a {
+  float: left;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif
+}
+
+.bottomnav active {
+  background-color: #000000;
+  color: white;
+}
 .top-container{
+  margin-top: 50px;
   background-color: #E4F9F5;
   position: relative;
 }
@@ -100,7 +131,7 @@ hr{
   transform: rotate(25deg);
 }
 .middle-container{
-  margin: 0 25% 100px 25%;
+  margin: 0 35% 100px 35%;
   padding-bottom: 200px;
 }
 .mid1{
@@ -135,6 +166,7 @@ hr{
 .bottom-container{
   background-color: #66BFBF;
   margin-top: 10px;
+  margin-bottom: 35px;
   padding: 50px 0 20px 0;
 }
 .nowrap{
